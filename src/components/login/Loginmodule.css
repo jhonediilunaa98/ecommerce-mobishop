@@ -1,0 +1,32 @@
+:root {
+    --color-1: #021533;
+    --color-2: #143668;
+    --color-3: #2866d9;
+    --color-4: #b3d0ff;
+    --color-5: #efefef;
+    --color-6: #f7f7f7;
+}
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-1);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-6);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
