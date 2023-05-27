@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faStar} from '@fortawesome/free-solid-svg-icons'
 
 
-function navbar(){
+function Navbar(){
   const [clicked, setClicked] = useState(false)
   const handleClick = () => {
     setClicked(!clicked)
@@ -29,11 +29,11 @@ return (
 )
 }
 
-export default navbar
+export default Navbar
 const NavContainer = styled.nav`
 h2{
   color: #ffffff;
-  font-wigth: 400;
+  font-weight: 400;
   span{
     font-weight: bold;
   }
@@ -94,9 +94,11 @@ a{
 }
 
 .burguer{
-  @media(min-width: 768px){
+  @media (min-width: 768px){
     display: none;
   }
+}
+`
 
   const BgDiv = styled.div`
   background-color: #B3D0FF;
