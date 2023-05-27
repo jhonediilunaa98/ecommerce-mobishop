@@ -20,8 +20,8 @@ return (
 <a onClick={handleClick} href="cart">Cart</a>
 <a onClick={handleClick}href="login">Login</a>
 </div>
-<div className='burguer'>
-<burguerbutton clicked={clicked} handleClick={handleClick} />
+<div className='Burguer'>
+<BurguerButton clicked={clicked} handleClick={handleClick} />
 </div>
 <BgDiv className={`initial ${clicked ? ' active' : ''}`}></BgDiv>
 </NavContainer>

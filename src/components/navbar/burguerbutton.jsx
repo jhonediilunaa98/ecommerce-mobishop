@@ -2,23 +2,23 @@
 import React from 'react';
 import styled from'styled-components'
 
-function burguerbotton(props){
+function BurguerButton(props){
 return (
-  <burguer>
+  <Burguer>
   <div onClick={props.handleClick}
        className={`icon nav-icon-5 ${props.clicked ? 'open' : ''}`}>
   <span></span>
   <span></span>
   <span></span>      
   </div>
-  </burguer>
+  </Burguer>
 
 )
 }
 
-export default burguerbotton
+export default BurguerButton;
 
-const burguer = style.div`
+const Burguer = style.div`
 /* nav-icon-5 */
 .nav-icon-5{
 width: 35px;
