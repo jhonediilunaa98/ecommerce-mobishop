@@ -6,6 +6,7 @@ function App() {
     <>
       <h1>MOBISTORE</h1>
       <h2>cali</h2>
+      <h2>michelle</h2>
       <login/>
       <nav/>
       <Product/>
