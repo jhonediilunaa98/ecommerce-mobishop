@@ -1,8 +1,7 @@
-import React from 'react';
-import styled from'styled-components'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faStar} from '@fortawesome/free-solid-svg-icons'
+// eslint-disable-next-line no-unused-vars
+import React, {useState} from 'react';
+import styled from 'styled-components'
+import BurguerButton from './burguerbutton';
 
 
 function Navbar(){
@@ -20,7 +19,7 @@ return (
 <a onClick={handleClick} href="cart">Cart</a>
 <a onClick={handleClick}href="login">Login</a>
 </div>
-<div className='Burguer'>
+<div className='burguer'>
 <BurguerButton clicked={clicked} handleClick={handleClick} />
 </div>
 <BgDiv className={`initial ${clicked ? ' active' : ''}`}></BgDiv>
@@ -32,7 +31,7 @@ return (
 export default Navbar
 const NavContainer = styled.nav`
 h2{
-  color: #ffffff;
+  color: black;
   font-weight: 400;
   span{
     font-weight: bold;
