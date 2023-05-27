@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faStar} from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -15,13 +16,13 @@ const ProductCard = () => {
       <p>xxxxxxxxxxxxxx</p>
       <h6>5.690.000</h6>
       <ul>
-        <li>★</li>
-        <li>★</li>
-        <li>★</li>
-        <li>★</li>
-        <li><FontAwesomeIcon icon="fa-solid fa-star" /></li>
+        <FontAwesomeIcon className='fa cheked' icon={faStar} />
+        <FontAwesomeIcon className='fa cheked' icon={faStar} />
+        <FontAwesomeIcon className='fa cheked' icon={faStar} />
+        <FontAwesomeIcon className='fa cheked' icon={faStar} />
+        <FontAwesomeIcon className='fa cheked' icon={faStar} />
       </ul>
-      <button className='buy-1'>Buyy Now</button>
+      <button className='buy-1'>Buy Now</button>
      </aside>
     </article>
   );
