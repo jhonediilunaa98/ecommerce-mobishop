@@ -8,6 +8,7 @@ function App() {
       <h1>MOBISHOP</h1>
       <ProductCard/>
     </>
+    
   )
 }
 
