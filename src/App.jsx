@@ -1,16 +1,12 @@
 import './App.css'
-import Product from './components/Product';
+import ProductCard from './components/products/ProductCard';
+
 
 function App() {
   return (
     <>
-      <h1>MOBISTORE</h1>
-      <h2>cali</h2>
-      <h3>Colombia</h3>
-      <h2>michelle lopez</h2>
-      <login/>
-      <nav/>
-      <Product/>
+      <h1>MOBISHOP</h1>
+      <ProductCard/>
     </>
   )
 }
