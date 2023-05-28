@@ -28,3 +28,7 @@ body {
 .section {
     width: 50%;
 }
+
+h2 {
+    font-size: 20px;
+}
