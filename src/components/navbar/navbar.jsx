@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import styled from 'styled-components'
 import BurguerButton from './burguerbutton';
-import './navmodule.css'
+
 
 
 function Navbar(){
